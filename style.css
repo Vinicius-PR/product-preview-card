@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Color variables */
+  --black: #1C232B;
+  --grey: #6C7289;
+  --cream: #F2EAE2;
+  --white: #FFFFFF;
+  --green-500: #3D8168;
+  --green-700: #1A4032;
+
+  /* Spacing variables */
+  --spacing-500: 2.5rem;   /* 40px */
+  --spacing-400: 2rem;     /* 32px */
+  --spacing-300: 1.5rem;   /* 24px */
+  --spacing-200: 1rem;     /* 16px */
+  --spacing-100: 0.5rem;   /* 8px */
+  --spacing-50: 0.25rem;   /* 4px */
+}
+
+/* Typography */
+
+.text-preset-1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2rem; /* 32px */
+  font-style: normal;
+  line-height: 1;
+
+}
+
+.text-preset-2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem; /* 14px */
+  font-style: normal;
+  line-height: 1.1;
+}
+
+.text-preset-3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem; /* 14px */
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.text-preset-4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem; /* 12px */
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.3125rem /* 5px */
+}
+
+.text-preset-5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.8125rem; /* 13px */
+  font-style: normal;
+  line-height: 1.2;
+  text-decoration: line-through;
+}
+
