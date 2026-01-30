@@ -72,13 +72,12 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--cream);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .container {
   border-radius: 8px;
   background-color: var(--white);
-  margin: var(--spacing-200);
 }
 
 .product-card {
@@ -158,7 +157,7 @@ body {
 
 @media (max-width: 700px) {
   .container {
-    align-self: flex-start;
+    margin: 5rem var(--spacing-200);
   }
 
   .product-card {
@@ -174,5 +173,12 @@ body {
 
   .content {
     gap: var(--spacing-300);
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    align-self: flex-start;
+    margin: var(--spacing-200);
   }
 }
