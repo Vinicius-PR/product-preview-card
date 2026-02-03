@@ -89,6 +89,7 @@ body {
 
 .product-image {
   overflow: hidden;
+  height: 28.5rem;
 }
 
 .product-image img {
@@ -164,6 +165,10 @@ body {
     grid-template-columns: 1fr;
     max-width: 21.875rem; /* 350px */
     max-height: max-content;
+  }
+
+  .product-image {
+    height: auto;
   }
 
   .product-image img {
